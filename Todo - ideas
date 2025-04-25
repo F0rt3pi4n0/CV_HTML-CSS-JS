@@ -1,0 +1,44 @@
+> Każdy wpis "li" w obramówce??
+> każy wpis jakoś wyróżniony, ale nie bulletem z listy
+> Portfolio slider
+> progress bary w skillsach
+> zdjęcie w about
+> Wrzucić na Git'a repo, a potem próbować pushować zmiany jakowe 
+
+
+**Do ostylowania --> NAVBAR**
+> linki w nawigacji -
+  > jakaś animacja po przejściu do odpowiedniego miejsca np. "Certyfikaty" - animacja??????????
+  > background przyciskach w nawigacji??
+** NAVBAR TASK END **
+
+**Akutalne zadanie --> POPUPY ** - https://www.youtube.com/watch?v=r_PL0K2fGkY
+Popupy po kliknięciu danej kategorii
+> Każda "ul" do kliknięcia i po kliknięciu pokazuje się a'la prompt okno np. z opisem stanowiska w przypadku Test & Analysis Enginner YAS YAS
+  > Nie po kliknięciu a po najechaniu na dany tytuł pojawia się popup
+    > przerobić na pozostałe stanowiska + zrobić jedną funkcję na otwieranie się popup'ów 
+** POPUP TASK END **
+
+
+
+
+**---------------------------------------DONE---------------------------------------**
+> footer z zegarkiem i linkami **DONE**
+> ikonki w kont-akcie (telefon, email, lokalizacja) **DONE**
+> zmiana czcionki **DONE**
+> wyrównanie borderów wpisów **DONE**
+> border każdego "li" w nav **DONE**
+
+** NAVBAR **
+> linki w nawigacji -
+> skrypt listExpand() nie expanduje listy z divami **DONE**
+  > po rozwinięciu listy header przykrywa rzeczy z listy - coś tam ChatGPT podpowiedział, sprawdzić rozmowę z nim o tym **DONE**
+    > narazie menu rozwija się nad headerem, ale tylko na górze, jest "przyczepione" do góry **DONE**
+  > wychodzące poza border napisy linków - ??font issue?? - font-weight issue **DONE**
+  > Tekst wychodzi poza tag link - wrzuciłem w divy - do dokończenia - dokończone, działa **DONE**
+  > znikające "hambMenu Menu" po osiągnięciu danego width - teraz trzeba odklikać, żeby znikło, po tym jak klikło się w jakiś link z rozwijanego menu **DONE**
+  > funkcja "onclick=listExpand()" działa tylko w zmienionej rozdziałce **DONE**
+    > jako bug lub feature, tylko zamiast "hambMenu Menu" wyświetla się "strzałka Powrót"?? **DONE**
+  > "Doświadczenie" wychodzi po zmianie rozdziałki - still an issue - zmienione na zmianę na "hambMenu Menu" **DONE**
+  > przy zmianie rozdziałki na telefon/tablet menu zmienia się hamburgera **DONE**
+    > po rozwinięciu i kliknięciu danego linku menu zwija się, a nie tylko po naciśnięciu "Menu" **DONE**

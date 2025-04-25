@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>CV</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/col-style.css">
+	
+    <!-- scripts -->
+    <script type="text/javascript" src="./script/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/5195f5acd2.js" crossorigin="anonymous"></script>
+    
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Monomakh&family=Teko:wght@300&display=swap" rel="stylesheet">
+
+    
+</head>
+<body onload="clock()">
+    <section class="row">
+        <nav class="col-12 topNav" id="navLinks">
+            <a href="javascript:void(0);" class="icon" class="col-2" onclick="listExpand()">
+                <div><b><i class="fa-solid fa-bars"></i> Menu</b></div>
+            </a>    
+                <a href="#experience" class="col-2" onclick="listExpand()"><div>Doświadczenie</div></a>
+                <a href="#skills" class="col-2" onclick="listExpand()"><div>Umiejętności</div></a>
+                <a href="#education" class="col-2" onclick="listExpand()"><div>Wykształcenie</div></a>
+                <a href="#portfolio" class="col-2" onclick="listExpand()"><div>Portfolio</div></a>
+                <a href="#cert" class="col-2" onclick="listExpand()"><div>Certyfikaty</div></a>
+                <a href="#contact" class="col-2" onclick="listExpand()"><div>Kontakt</div></a>
+        </nav>
+
+        <header class="col-12">
+                <h1>Kamil Rudolf</h1>
+                <h2>Manual Tester/Frontend Developer</h2>
+        </header>
+        
+        <main class="col-12">
+            <div class="center col-7">
+                <article id="about" class="col-12 units">
+                    Inżynier testów. Testowanie manualne i 
+                    automatyczne. Obsługa systemów operacyjnych Linux i Windows. Debugo wanie jako 
+                    pierwsza zasada rozwiązywania problemów i sposób na poszerzanie wiedzy. Chętny do 
+                    rozwijania swoich umiejętności na każdy możliwy sposób. Zamierza rozpocząć rozwój 
+                    w kierunku front-endu jako przyszłą ścieżkę kariery. 
+                </article>
+
+                <article id="experience" class="col-12 units">
+                    <h3><i class="fa-solid fa-briefcase"></i> Doświadczenie</h3>
+                    <button id="openPopup" class="col-7">Test and Analysis Engineer</button>
+                    <div class="popupWindow" id="popup">
+                        <div class="popupWindowInner col-6">
+                            <h4><b>Test and Analysis Engineer</b></h4>
+                            <ul>
+                                <li>
+                                    <ul class="insideListStyle experienceList">
+                                        <li>Manualna i automatyczna egzekucja testów</li>
+                                        <li>Dbanie o płynność działania frameworku</li>
+                                        <li>Analiza test eventów i egzekucji testów</li>
+                                        <li>Sprawdzenie i propozycja poprawek do test case'ów</li>
+                                        <li>Testowanie systemów operacyjnych Linux (RHEL, SLES, Ubuntu)</li>
+                                        <li>Debugging</li>
+                                        <li>Review i przygotowywanie defektów</li>
+                                    </ul>
+                                </li>
+                            </ul>    
+                            <button id="closePopup" class="col-9">Close Popup</button>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <ul class="insideListStyle experienceList"><p><b>Junior Test and Analysis Engineer</b></p>
+                                <li>Manualna i automatyczna egzekucja testów</li>
+                                <li>Dbanie o płynność działania frameworku</li>
+                                <li>Dbanie o integralność hardware'u</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="insideListStyle experienceList"><p><b>Obsługa ewidencji i inwentaryzacji</b></p>
+                                <li>Odbieranie i przekazywanie przesyłek wraz z transportowaniem ich</li>
+                                <li>Segregowanie dokumentacji w podziale na grupy i rodzaje</li>
+                                <li>Rejestrowanie identyfikatorów inwentaryzacyjnych w plikach Excel dla procesu inwentazryzacji masowej</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </article>
+
+                <article id="skills" class="col-12 units">
+                    <h3><i class="fa-solid fa-gear"></i> Umiejętności </i></h3>
+                    <ul>
+                        <li>Debugging</li>
+                        <li>Linux</li>
+                        <li>HTML&CSS</li>
+                        <li>Javascript</li>
+                    </ul>
+                </article>
+
+                <article id="education" class="col-12 units">
+                    <h3><i class="fa-solid fa-user-graduate"></i> Wykształcenie </h3>
+                    <ul>
+                        <li>Inżynier informatyki WSB Gdańsk</li>
+                        <li>Technik informatyk ZSM Elbląg</li>
+                    </ul>
+                </article>
+
+                <article id="portfolio" class="col-12 units">
+                    <h3><i class="fa-solid fa-file-pen"></i> Portfolio</h3>
+                </article>
+
+                <article id="cert" class="col-12 units">
+                    <h3><i class="fa-solid fa-certificate"></i> Certyfikaty</h3>
+                    <ul>
+                        <li>Technik informatyk 351203 - Europass</li>
+                        <li>
+                            <ul class="insideListStyle certList"><p><b>Cisco:</b></p>
+                                <li> Networking Essentials English 0421b, Cisco Virtual Academy </li>
+                                <li>  IT Essentials, Cisco Networking Academy </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="insideListStyle certList"><p><b>Udemy:</b></p>
+                                <li> HTML5 Ultimate Course </li>
+                                <li> Git from Basics to Advanced: Practical Guide for Developers </li>
+                                <li> Learn PHP - for beginners </li>
+                            </ul>
+                        </li>
+                        
+                        <li>Programowanie aplikacji WEB, Idea365</li>
+                    </ul>
+                </article>
+
+                <article id="contact" class="col-12 units">
+                    <h3><i class="fa-solid fa-address-book"></i> Kontakt</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i> Elbląg/Milejewo - Polska</li>
+                        <li><i class="fa-solid fa-envelope"></i> email - kamrud81@gmail.com</li>
+                        <li><i class="fa-solid fa-phone"></i> Telefon - 785 600 908</li>
+                    </ul>
+                </article>
+            </div>
+        </main>
+
+        <footer class="col-12">            
+            <h3>
+                <a href="https://www.linkedin.com/in/kamil-rudolf-324a3622b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/F0rt3pi4n0" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </h3>
+            <div id="time"></div>
+        </footer>
+        
+    </section>    
+</body>
+</html>
